@@ -1,7 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:400&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Krona+One:400&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Russo+One:400&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:400&display=swap);
 
 
 
@@ -11,7 +10,7 @@ body {
   font-family: Nunito;
 }
 .display-1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Bebas Neue', display;
   font-size: 3.125rem;
   line-height: 1.1;
 }
@@ -19,12 +18,12 @@ body {
   font-size: 5rem;
 }
 .display-2 {
-  font-family: 'Krona One', sans-serif;
-  font-size: 1.8rem;
+  font-family: 'Bebas Neue', display;
+  font-size: 1.4rem;
   line-height: 1.1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 2.88rem;
+  font-size: 2.24rem;
 }
 .display-4 {
   font-family: 'Bebas Neue', display;
@@ -43,7 +42,7 @@ body {
   font-size: 2.2rem;
 }
 .display-7 {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Krona One', sans-serif;
   font-size: 1rem;
   line-height: 1.4;
 }
@@ -67,9 +66,9 @@ body {
     line-height: calc( 1.1 * (1.74375rem + (3.125 - 1.74375) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 1.44rem;
-    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 1.12rem;
@@ -925,6 +924,9 @@ a {
     left: -1rem;
   }
 }
+.cid-saMILjdDmw {
+  background-image: url("../../../assets/images/mbr-1920x1281.jpg");
+}
 .cid-saMILjdDmw .slider-text-two {
   background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
   outline: 1px solid rgba(0, 0, 0, 0.2);
@@ -932,7 +934,7 @@ a {
   padding: 65px 50px;
 }
 .cid-saMILjdDmw .mbr-section-title {
-  color: #fb9d7e;
+  color: #eb4b00;
 }
 .cid-saMILjdDmw .mbr-text {
   color: #000000;
@@ -948,7 +950,7 @@ a {
 .cid-saMKALh5Wk {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #e4a885;
+  background-color: #ca693c;
 }
 .cid-saMKALh5Wk .mbr-section-subtitle {
   color: #767676;
@@ -1046,6 +1048,10 @@ a {
     padding-right: 3rem;
   }
 }
+.cid-saMKALh5Wk .mbr-section-title,
+.cid-saMKALh5Wk .underline {
+  color: #ffffff;
+}
 .cid-saMNHLKCMh {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1086,7 +1092,7 @@ a {
   padding: 3px;
 }
 .cid-saMNHLKCMh .card-title {
-  color: #149dcc;
+  color: #eb4b00;
   margin: 0;
   padding-bottom: 0.2rem;
 }
